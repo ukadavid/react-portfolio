@@ -1,7 +1,7 @@
 import React from "react";
 import "./skills.css";
 import Stack from "./Stack";
-import Services from "../services/Services";
+
 
 
 const Skills = () => {
@@ -12,7 +12,6 @@ const Skills = () => {
 
             <div className="skills__container container grid">
                 <Stack />
-                <Services />
             </div>
         </section>
     )
