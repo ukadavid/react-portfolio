@@ -2,6 +2,7 @@ import image1 from "../../assets/Judexchamp-logo.png";
 import image2 from "../../assets/Kenxedu-logo.png";
 import image3 from "../../assets/Logo-1.png";
 
+// Data that I will use for the testimonials
 
 export const Data = [
     {
