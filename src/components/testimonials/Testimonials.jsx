@@ -15,21 +15,37 @@ import { Pagination } from "swiper";
 
 const Testimonials = () => {
     return (
-        <section className="testimonial container section">
+        <section className="testimonial container section"
+        loop={true}
+        spaceBetween={24}
+        pagination={{
+          clickable: true,
+        }}
+        breakpoints={{
+          576: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 48,
+          },
+        }}
+        modules={[Pagination]}
+        >
             <h2 className="section__title">My Clients Say</h2>
             <span className="section__subtitle">Testimonials</span>
 
-            <div className="Testimonial__container">
+            <Swiper className="Testimonial__container">
                 {Data.map(({id, description, image, title,}) => {
                     return (
-                        <div className="testimonial__card" key={id}>
+                        <SwiperSlide className="testimonial__card" key={id}>
                             <p className="testimonial__description">{description}</p>
                             <img src={image} alt="" className="testimonial__img" />
                             <h3 className="testimonial__name">{title}</h3>
-                        </div>
+                        </SwiperSlide>
                     )
                 })}
-            </div>
+            </Swiper>
         </section>        
     )
 }
