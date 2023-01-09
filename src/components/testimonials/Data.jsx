@@ -7,7 +7,7 @@ import image3 from "../../assets/Logo-1.png";
 export const Data = [
     {
         id: 1,
-        description: "Tobe did a really good job by not only giving us an online presence but also helping us brainstorm on our business and proposing solutions that help improve profitability by 20%",
+        description: "Tobe did a really good job by not only giving us an online presence but also proposed solutions that help improve profitability by 20%",
         image: image3,
         title: "Pison Healthcare"
     },
