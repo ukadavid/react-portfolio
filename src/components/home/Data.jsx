@@ -1,5 +1,4 @@
 import React from "react";
-import sendpic from '../../assets/paper-plane.png';
 import hellopic from '../../assets/hello.png';
 
 
@@ -14,7 +13,7 @@ const Data = () => {
             <p className="home__description">I'm a creative front-end developer with 2 years of experience providing high-impact web solutions for diverse industries.</p>
 
             <a href="#contact" className="button button--flex">
-                Say Hi <img className="home__hand" src={sendpic} alt="send"></img>
+                Say Hi <i class="uil uil-envelope-send"></i>
             </a>
         </div>
     )
