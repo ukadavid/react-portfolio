@@ -26,7 +26,7 @@ const Services = () => {
                         <div className="services__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-                            <h3 className="services__modal-title"></h3>
+                            <h3 className="services__modal-title">Frontend Engineer</h3>
                             <p className="services__modal-description">He has over 2 years experience providing bespoke solutions to clients and companies</p>
 
                             <ul className="services__modal-services grid">
@@ -73,7 +73,7 @@ const Services = () => {
                         <div className="services__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-                            <h3 className="services__modal-title"></h3>
+                            <h3 className="services__modal-title">Product Designer</h3>
                             <p className="services__modal-description">He has over 2 years experience providing bespoke solutions to clients and companies</p>
 
                             <ul className="services__modal-services grid">
