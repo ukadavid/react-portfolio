@@ -151,6 +151,16 @@
         height: 250px;
     }
 
+    .button__contact {
+        transition: .3s;
+        font-size: 1.3rem;
+        margin-left: 3px;
+    }
+
+    .button:hover .button__contact {
+        transform: translateX(0.25rem);
+    }
+
     .home__scroll {
         margin-left: 7.5rem;
     }

@@ -13,7 +13,7 @@ const Data = () => {
             <p className="home__description">I'm a creative front-end developer with 2 years of experience providing high-impact web solutions for diverse industries.</p>
 
             <a href="#contact" className="button button--flex">
-                Say Hi <i class="uil uil-envelope-send"></i>
+                Say Hi <i class="button__contact uil uil-envelope-send"></i>
             </a>
         </div>
     )

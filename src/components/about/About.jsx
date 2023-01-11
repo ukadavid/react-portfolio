@@ -21,7 +21,7 @@ const About = () => {
                     I'm a creative front-end developer with 2 years of experience providing high-impact web solutions for diverse industries.
                     </p>
 
-                    <a download="" href={CV} className="button button--flex">Download CV <img src={downloadicon} alt="download icon" /></a>
+                    <a download="" href={CV} className=" button button--flex">Download CV <img className="btn__download" src={downloadicon} alt="download icon" /></a>
                 </div>
 
 

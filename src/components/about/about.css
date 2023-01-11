@@ -10,6 +10,16 @@
     justify-self: center;
 }
 
+.btn__download {
+    font-size: 1rem;
+    transition: 0.3s;
+    margin-left: 3px;
+}
+
+.button:hover .btn__download {
+    transform: translateX(00.25rem);
+}
+
 .about__info {
     grid-template-columns: repeat(3, 140px);
     gap: 0.5rem;
