@@ -18,12 +18,11 @@ const About = () => {
                     <Info />
 
                     <p className="about__description">
-                    I'm a creative front-end developer with 2 years of experience providing high-impact web solutions for diverse industries.
+                    Building Finance | Tech | Healthcare
                     </p>
 
                     <a download="" href={CV} className=" button button--flex">Download CV <img className="btn__download" src={downloadicon} alt="download icon" /></a>
                 </div>
-
 
             </div>
             
