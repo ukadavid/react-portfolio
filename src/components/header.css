@@ -29,6 +29,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--small-bg-color);
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
     transition: .3s;

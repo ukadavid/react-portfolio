@@ -31,6 +31,7 @@
     font-weight: 500;
     color: #18cdca;
   }
+
   @media screen and (min-width: 600px) {
     .tech__tools {
       grid-template-columns:repeat(5, 80px);

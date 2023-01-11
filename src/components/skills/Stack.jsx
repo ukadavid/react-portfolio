@@ -37,8 +37,8 @@ const Stack = () => {
             </div>
 
             <div className="tools">
-                <img src={tailwindicon} alt="" />
-                <p>Tailwind CSS</p>
+                <img className="tools__color" src={tailwindicon} alt="" />
+                <p>Tailwind</p>
             </div>
 
             <div className="tools">
@@ -56,8 +56,8 @@ const Stack = () => {
                 <p>Redux</p>
             </div>
 
-            <div className="tools">
-                <img src={githubicon} alt="" />
+            <div className="tools ">
+                <img className="tools__color" src={githubicon} alt="" />
                 <p>GitHub</p>
             </div>
 
