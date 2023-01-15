@@ -10,6 +10,7 @@ import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact"; 
 import Footer from "./components/footer/Footer";
 import Scrollup from "./components/scrollup/Scrollup";
+import Project from "./components/Projects/Project";
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
             <About />
             <Skills />
             <Services />
+            <Project />
             <Qualification />
             <Testimonials />
             <Contact />
