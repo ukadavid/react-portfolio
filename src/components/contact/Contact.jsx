@@ -54,8 +54,8 @@ const Contact = () => {
 
                     <form ref={form} onSubmit={sendEmail} action="#" className="contact__form">
                         <div className="contact__form-div">
-                            <label className="contact__form-tag">Name</label>
-                            <input type="text" name="name" className="contact__form-input" placeholder="Type your name" />
+                            <label for="input1" className="contact__form-tag">Name</label>
+                            <input id="input1" type="text" name="name" className="contact__form-input" placeholder="Type your name" />
 
                         </div>
 
