@@ -116,18 +116,9 @@ input:focus, textarea:focus {
     border: 2px solid black;
 }
 
-.contact__form-div > input:focus + label {
-    color: blue;
-    font-weight: --font-medium;
-   }
-
-
 .contact__form-div:focus-within label {
-    color: blue;
-  }
-
-.contact__form:focus-within {
-    background-color: yellow;
+    color: rgb(50, 50, 58);
+    font-weight: var(--font-medium);
   }
 
 /* Breakpoints */

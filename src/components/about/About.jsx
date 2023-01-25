@@ -18,7 +18,7 @@ const About = () => {
                     <Info />
 
                     <p className="about__description">
-                    Building Finance | Tech | Healthcare
+                    Passionate about healthcare, finance, and technology. Seeking projects that combine these fields. Committed to driving positive change and impact.
                     </p>
 
                     <a download="" href={CV} className=" button button--flex">Download CV <img className="btn__download" src={downloadicon} alt="download icon" /></a>
