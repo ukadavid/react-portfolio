@@ -1,5 +1,5 @@
 import React from "react";
-import hellopic from '../../assets/hello.png';
+import hellopic from '../../assets/wave.png';
 
 
 const Data = () => {

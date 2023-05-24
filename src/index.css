@@ -1,13 +1,78 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+#light {
+  background-color: white;
+  color: black;
+}
+
+#dark {
+  background-color: #36454f;
+  color: white;
+}
+
+#dark .home__title,
+#dark .home__subtitle,
+#dark .w,
+#dark .home__scroll-mouse,
+#dark .wheel,
+#dark .section__title,
+#dark .home__scroll-name,
+#dark .qualification__button,
+#dark .qualification__title,
+#dark .swiper-pagination-bullet,
+#dark .swiper-pagination-bullet-active,
+#dark .contact__title,
+#dark .contact__form-input,
+#dark textarea,
+#dark .footer__title,
+#dark .footer__link,
+#dark .footer__copy,
+#dark .nav__logo,
+#dark .nav__link,
+#dark .home__scroll-mouse {
+  color: white;
+}
+
+#dark .services__button-icon,
+#dark .project__content,
+#dark .testimonial__description,
+#dark .services__modal-info,
+#dark .services__modal-description {
+  color: black;
+}
+
+#dark footer,
+#dark .contact__form-tag {
+  color: white;
+  background-color: #36454f;
+}
+
+#light .contact__form-tag {
+  color: black;
+  background-color: white;
+}
+
+#dark .contact__form-input {
+  border: 1px solid white;
+}
+
+#dark .header {
+  background-color: #666362;
+}
+/* #463E3F */
+
+#dark .show-menu {
+  background-color: #666362;
 }
