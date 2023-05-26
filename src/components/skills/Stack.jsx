@@ -18,7 +18,6 @@ import node from "../../assets/node.png";
 import ts from "../../assets/typescript.png";
 import postgres from "../../assets/postgresql.png";
 import graphql from "../../assets/Graphql.png";
-import express from "../../assets/express.png";
 
 const Stack = () => {
   return (
