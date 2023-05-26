@@ -27,7 +27,7 @@ const Project = () => {
                 <p>My GitHub Profile replica with GraphQL, HTML, CSS, and JavaScript
                 </p>
                 <a href="https://github.com/ukadavid" target="_blank" rel="noreferrer"><i class="uil social__github uil-github"></i></a>
-                <a href="https://app.netlify.com/sites/github-graphql-frontend-query/overview" target="_blank" rel="noreferrer"><i class="uil social__external-link uil-external-link-alt"></i></a>
+                <a href="https://github-graphql-frontend-query.netlify.app/" target="_blank" rel="noreferrer"><i class="uil social__external-link uil-external-link-alt"></i></a>
             </div> 
             <div className="project__content">
                 <p>OmniFood Project</p>
