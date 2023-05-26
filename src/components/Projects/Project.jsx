@@ -8,32 +8,33 @@ const Project = () => {
             <span className="section__subtitle">Some of my Projects</span>
         <div className="project__container">
             <div className="project__content">
-                <p>Pixel Art Maker</p>
-                <p>As part of my Udacity Junior Frontend Developer task, I created a Pixel art editor that helps make pixel art easily
+                <p>Portfolio Website</p>
+                <p>A professional portfolio website highlighting my skills and projects as a Full Stack Developer.
                 </p>
-                <a href="https://github.com/ukadavid" target="_blank" rel="noreferrer"><i class="uil social__github uil-github"></i></a>
-                <a href="https://ukadavid.github.io/Pixel-art-maker/" target="_blank" rel="noreferrer"><i class="uil social__external-link uil-external-link-alt"></i></a>
+         
+                <a href="https://github.com/ukadavid/react-portfolio" target="_blank" rel="noreferrer"><i class="uil social__github uil-github"></i></a>
+                <a href="https://react-portfolio-git-main-ukadavid.vercel.app/" target="_blank" rel="noreferrer"><i class="uil social__external-link uil-external-link-alt"></i></a>
             </div> 
             <div className="project__content">
-                <p>Love Calculator</p>
-                <p>This is is the use of Math.random to measure the percentage of love compatibility between two people.
+                <p>ZeeFlix</p>
+                <p>A full-stack movie rating platform that performs crud operations, and role-based access control (RBAC). Built with Express, EJS, TypeScript, SQLite3, Docker, 
                 </p>
                 <a href="https://github.com/ukadavid" target="_blank" rel="noreferrer"><i class="uil social__github uil-github"></i></a>
-                <a href="https://ukadavid.github.io/Love-Calculator/" target="_blank" rel="noreferrer"><i class="uil social__external-link uil-external-link-alt"></i></a>
+                <a href="https://zeeflix-mongo.onrender.com/" target="_blank" rel="noreferrer"><i class="uil social__external-link uil-external-link-alt"></i></a>
             </div> 
             <div className="project__content">
-                <p>Tindog Website</p>
-                <p>A website created with bootstrap for finding dogs.
+                <p>GitHub Profile</p>
+                <p>My GitHub Profile replica with GraphQL, HTML, CSS, and JavaScript
                 </p>
                 <a href="https://github.com/ukadavid" target="_blank" rel="noreferrer"><i class="uil social__github uil-github"></i></a>
-                <a href="https://ukadavid.github.io/tindog-website/" target="_blank" rel="noreferrer"><i class="uil social__external-link uil-external-link-alt"></i></a>
+                <a href="https://app.netlify.com/sites/github-graphql-frontend-query/overview" target="_blank" rel="noreferrer"><i class="uil social__external-link uil-external-link-alt"></i></a>
             </div> 
             <div className="project__content">
                 <p>OmniFood Project</p>
                 <p>This is a food delivery website that was created with HTML5, CSS3 and JavaScript
                 </p>
                 <a href="https://github.com/ukadavid" target="_blank" rel="noreferrer"><i class="uil social__github uil-github"></i></a>
-                <a href="https://ukadavid.github.io/OmniFood_Site/" target="_blank" rel="noreferrer"><i class="uil social__external-link uil-external-link-alt"></i></a>
+                <a href="https://webappfood.netlify.app/" target="_blank" rel="noreferrer"><i class="uil social__external-link uil-external-link-alt"></i></a>
             </div> 
         </div>
     </section> 
